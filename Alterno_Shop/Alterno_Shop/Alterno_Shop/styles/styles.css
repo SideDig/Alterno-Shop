@@ -1,0 +1,325 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.title_home{
+    font-family: 'Sacramento';
+    color:#C79A9A;
+    font-size: 70px;
+    text-align: center;
+    height: 90px;
+    width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+}
+
+/*Contacto*/
+.informacion{
+    padding:10px;
+    display:flex;
+    justify-content:flex-end;
+    width: 100px;
+    float: right;
+}
+.registro_inicio_sesion
+{
+    top: 0;
+    left: 0;
+    font-size: 10px;
+    color: #000000;
+    padding:10px;
+    display:flex;
+    float: left;
+    font-family: "Salsa";
+    width: 90px;
+    height: 100px;
+}
+.texto_inicio_o_registro{
+    color: #000000;
+}
+
+/*Carrito*/
+.car_shop{
+    font-family: "Salsa";
+    padding-right: 30px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+.car_shop img{
+    padding-right:5px;   
+}
+
+.car_shop a{
+    color: black;
+    text-decoration: none;
+}
+/*navbar*/
+nav{
+    background-color:#DDB5B5;
+    border: 1px solid #DDB5B5;
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+nav a{
+    font-family: "Salsa";
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 14.5px; 
+    width: 15%;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color:#BA7B7C;
+    color: white;
+} 
+
+#home{
+    background: #BA7B7C;
+    color: #ffffff;
+}
+
+.barra_busqueda{
+    border-radius:6px;
+    padding-left:0.5%;
+    border: 1px solid #BA7B7C;
+    color:#000000;
+    margin-right: 10px;
+    margin-top:20px;
+    margin-left:38%;
+    height:26px;
+    width: 282px;
+    float: left;
+    background: rgba(186, 123, 124, 0.2);
+    
+}
+
+.btn_buscar {
+    font-family: "Salsa";
+    margin-top: 19px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #BA7B7C;
+    height:32px;
+    font-size: 15px;
+    width: 100px;
+    border-radius: 7px;
+    color: lightcoral;
+    cursor: pointer;
+    
+}
+   
+.btn_buscar:active {
+    color: white;
+    transform: translateY(0.2rem);
+}
+   
+.btn_buscar:hover:not(:disabled) {
+    background: #BA7B7C;
+    color: white;
+   
+}
+   
+.btn_buscar:disabled{
+    cursor: auto;
+    
+}
+
+hr{
+    margin-top: 20px;
+    color: #727272 80%;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 1500px;
+    height: 460px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+    
+.contenedor .card{  
+    border: 2px solid rgb(0, 0, 0);
+    width: 270px;
+    height: 405px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+       
+}
+    
+.contenedor .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);  
+}
+    
+.contenedor .card img{
+    width: 270px;
+    height:250px;
+}
+    
+    
+.contenedor .card p{
+    font-family: "Salsa";
+    border-top:1px solid gray;
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+    
+.contenedor .card a {
+    border-radius: 5px;
+    padding: 6px;
+    font-family: "Salsa";
+    border: 1px solid #BA7B7C;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500px;
+    text-decoration: none;
+    color: #BA7B7C;
+        
+}
+.card a:hover{
+    color: #000000;
+}
+*::-webkit-scrollbar{
+    width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #6161617c;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #DDB5B5;
+    border-radius: 6px;
+    border: 2px solid #000000;
+}
+
+
+.modal-body{ 
+    padding: 10px;
+}
+.btn-close button:hover{
+    color:white;
+}
+.modal-header{
+    color: black;
+}
+
+.modal-body img{
+    border: 1px solid rgba(0, 0, 0, 0.268);
+    float: left;
+}
+
+.modal-body h5{
+    margin-left:40%;
+    font-family: "Salsa";
+}
+
+.modal-body h3{
+    text-align: center;
+    font-family: "Salsa";
+}
+
+.modal-body li{
+    margin-left: 42%;
+}
+
+.cantidad_Product{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.btn-add_car {
+    font-family: "Salsa";
+    margin-top: 19px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #BA7B7C;
+    height:32px;
+    font-size: 1rem;
+    width: 150px;
+    border-radius: 7px;
+    color: lightcoral;
+    cursor: pointer;
+}
+
+.btn_comprar{
+    font-family: "Salsa";
+    margin-top: 19px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #BA7B7C;
+    height:32px;
+    font-size: 1rem;
+    width: 100px;
+    border-radius: 7px;
+    color: lightcoral;
+    cursor: pointer;
+}
+
+.cta {
+    margin-left: 230px;
+    margin-top: 15px;
+    border: none;
+    background: none;
+  }
+  
+  .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    padding-right: 15px;
+    text-transform: uppercase;
+  }
+  
+  .cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  
+  .cta:active svg {
+    transform: scale(0.9);
+  }
+  
+  .hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 20px;
+  }
+  
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

@@ -1,0 +1,5 @@
+Este es el usuario y la contraseña para que el admin pueda entrar al crud
+
+usuario: Administrador
+
+contraseña: admin 
